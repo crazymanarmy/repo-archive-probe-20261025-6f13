@@ -1,0 +1,5 @@
+name: Probe artifact MIME
+description: Run a bounded Repo Archive artifact MIME diagnostic
+runs:
+  using: node24
+  main: probe.mjs

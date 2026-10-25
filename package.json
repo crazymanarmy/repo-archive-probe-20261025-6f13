@@ -1,0 +1,13 @@
+{
+  "name": "repo-archive-artifact-probe",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "probe": "node probe.mjs"
+  },
+  "dependencies": {
+    "@actions/artifact": "6.3.1",
+    "@azure/storage-blob": "12.31.0"
+  }
+}
